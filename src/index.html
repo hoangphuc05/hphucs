@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./main.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+</head>
+<body class="bg-neutral-50 dark:bg-neutral-800">
+
+  <div class="flex flex-col items-center space-y-12 relative">
+    <div class="min-h-screen flex flex-col">
+
+      <div class="flex flex-col max-w-2xl lg:max-w-3xl space-y-8 leading-relaxed flex-grow justify-center">
+        <div class="space-y-2">
+          <h1 class="font-bold text-4xl">Phuc Hoang</h1>
+          <p>Contact me: <a class="group" href="mailto:chphuc05@gmail.com">Gmail <span class="group-hover:inline hidden">- chphuc05@gmail.com</span></a> 
+            - <a class="group" href="https://github.com/hoangphuc05/">Github <span class="group-hover:inline hidden">- hoangphuc05</span></a> 
+            - <a href="https://www.linkedin.com/in/phuc-cai/">LinkedIn</a></p>
+        </div>
+  
+        <p class="text-gray-300 dark:text-neutral-500">Wh...why are you here?</p>
+        <p>My name is Phuc, an undergraduate student finishing a Computer Science and a Math degree, interested in any new and shining technology (am i a Crows?). </p>
+        <p>This website is a random project I started years ago, and somehow still alive today. This is my playground, where I will play with those shining technology and archive what I learned.</p>
+        <p>Check out <a class="underline decoration-solid decoration-2 decoration-sky-500 hover:underline-offset-1" href="#projects">my projects</a>, 
+          <a class="underline decoration-solid decoration-2 decoration-red-500 hover:underline-offset-1" href="#writings">my writings</a> 
+          and <a class="underline decoration-solid decoration-2 decoration-yellow-500 hover:underline-offset-1" href="https://hphucs.me/files/Phuc_Cai_2022.pdf" target="_blank">my resume</a>.</p>
+      </div>
+    </div>
+    
+    
+
+    <div id="projects" class="max-w-2xl lg:max-w-3xl space-y-14 md:space-y-8 leading-relaxed min-h-screen flex flex-col">
+      <h1 class="font-bold text-3xl">My Projects</h1>
+
+      <a href="http://ctf-acm.meorung.me/" target="_blank" class="hover:drop-shadow">
+        <div class="flex flex-col-reverse md:flex-row items-center md:space-x-2 ">
+          <div class="grow flex-row space-y-3">
+            <h2 class="font-bold text-xl">Whitworth ACM Capture the flag 2022</h2>
+            <p>Original hacking competition with the goal to introduce basic concept of hacking and cyber security: cookies, html, reverse engineer javascript, XSS, template injection,... </p>
+          </div>
+          <div class="flex-none md:w-52">
+            <img src="https://i.imgur.com/E0mCnfq.png" alt="screen shot of the project"/>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://cmx-main.web.app/" target="_blank" class="hover:drop-shadow">
+        <div class="flex flex-col-reverse md:flex-row items-center md:space-x-2 ">
+          <div class="grow flex-row space-y-3">
+            <h2 class="font-bold text-xl">Carl-Maxey History learning website</h2>
+            <p>Create with <span class="font-semibold text-sky-500">ReactJS</span> and <span class="font-semibold text-yellow-500">Firebase</span>, this website is used by K-12 students at Spokane to learn more about African American history</p>
+          </div>
+          <div class="flex-none md:w-52">
+            <img src="https://i.imgur.com/X4eqr3M.png" alt="screen shot of the project"/>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://hphucs.me/reddit2/" target="_blank" class="hover:drop-shadow">
+        <div class="flex flex-col-reverse md:flex-row items-center md:space-x-2">
+          <div class="grow flex-row space-y-3">
+            <h2 class="font-bold text-xl">Reddit translator</h2>
+            <p>Designed to help support the Vietnamese/non-Englist speaking community with fast real-time translations on Reddit. Featured on DigitalOcean for helping the community during Covid-19</p>
+          </div>
+          <div class="flex-none md:w-52">
+            <img src="https://hphucs.me/homepage/rvnProject.jpg" alt="screen shot of the project"/>
+          </div>
+        </div>
+      </a>
+    
+      <a>
+        <div class="flex flex-col-reverse md:flex-row items-center md:space-x-2" target="_blank" class="hover:drop-shadow">
+          <div class="grow flex-row space-y-3">
+            <h2 class="font-bold text-xl">Non-profit's website</h2>
+            <p>I, with other 2 students, set up a website for Spokane Valley Community Advocates, a local non-profit organization. I also set up an AWS server hosting the website and the backend API of the website.</p>
+          </div>
+          <div class="flex-none md:w-52">
+            <img src="https://hphucs.me/homepage/svca.jpg" alt="screen shot of the project"/>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://top.gg/bot/739410070533570582" target="_blank" class="hover:drop-shadow">
+        <div class="flex flex-col-reverse md:flex-row items-center md:space-x-2">
+          <div class="grow flex-row space-y-3">
+            <h2 class="font-bold text-xl">Discord bot</h2>
+            <p>Cool people use Discord, cooler people make Discord bot! So here is mine. (Trusted?) and used in over 300 servers</p>
+          </div>
+          <div class="flex-none md:w-52">
+            <img src="https://top.gg/api/widget/739410070533570582.svg" alt="screen shot of the project"/>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://hphucs.me/blog/" target="_blank" class="hover:drop-shadow">
+        <div class="flex flex-col-reverse md:flex-row items-center md:space-x-2">
+          <div class="grow flex-row space-y-3">
+            <h2 class="font-bold text-xl">Blog</h2>
+            <p>Presonal blog contains write up about my past projects related to security. Original posts are in Vietnamese and will be translated to English.</p>
+          </div>
+          <div class="flex-none md:w-52">
+            <img src="https://hphucs.me/homepage/blogProject.jpg" alt="screen shot of the project"/>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://hphucs.me/oldNews/" target="_blank" class="hover:drop-shadow">
+        <div class="flex flex-col-reverse md:flex-row items-center md:space-x-2">
+          <div class="grow flex-row space-y-3">
+            <h2 class="font-bold text-xl">News</h2>
+            <p>One of my very first project, made in 2019! Utilize API and PHP to have all (neutral) news in one page. No personalized news, no one-sided political views!!</p>
+          </div>
+          <div class="flex-none md:w-52">
+            <img src="https://hphucs.me/homepage/newsProject.jpg" alt="screen shot of the project"/>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <div id="writings" class="max-w-2xl lg:max-w-3xl space-y-12 min-h-screen">
+      <h1 class="font-bold text-2xl ">My Writings</h1>
+      <div id="posts" class="space-y-8 leading-relaxed flex flex-col">
+        
+      </div>
+    </div>
+      
+  </div>
+</body>
+<script src="./index.js"/>
+</html>
