@@ -1,4 +1,18 @@
 
+function changeTheme() {
+  let root = document.getElementsByTagName('html')[0];
+  let buttonText = document.getElementById('theme-switch');
+  let isDark = root.classList.contains('dark');
+  if (isDark == true) {
+    root.classList.remove('dark');
+    buttonText.className = 'scale-125 fa-solid fa-sun';
+  } else {
+    root.classList.add('dark');
+    buttonText.className = 'scale-125 fa-solid fa-moon';
+
+  }
+}
+
 function getBlogPost() {
 
     let postHTML = ``;

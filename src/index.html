@@ -1,13 +1,14 @@
 <!doctype html>
-<html>
+<html class="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./main.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://kit.fontawesome.com/1dd659eb34.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-neutral-50 dark:bg-neutral-800">
+<body class="bg-neutral-50 dark:bg-neutral-800 transition-all duration-150 ease-in-out">
 
   <div class="flex flex-col items-center space-y-12 relative">
     <div class="min-h-screen flex flex-col">
@@ -128,6 +129,14 @@
     </div>
       
   </div>
+  <div class="fixed right-10 top-10">
+    <button onclick="changeTheme()">
+      <!-- <div>wia</div> -->
+      <p id="theme-switch" class="scale-125 fa-solid fa-moon"></p>
+    </button>
+    <!-- <p class="fa-solid fa-moon"></p> -->
+  </div>
+  
 </body>
 <script src="./index.js"/>
 </html>
