@@ -32,12 +32,24 @@ p {
     color: #fff;
 }
 
+h1 {
+    color: #000;
+}
+
 .dark h2 {
     color: #fafafa;
 }
 
+h2 {
+    color: #18181b;
+}
+
 .dark p {
     color: #a3a3a3;
+}
+
+p {
+    color: #525252;
 }
 
 .toggle-switch {
